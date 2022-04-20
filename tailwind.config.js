@@ -1,6 +1,10 @@
 module.exports = {
+  darkMode: 'class',
   content: {
-    files: ['./src/**/*.purs']
+    files: [
+      './src/**/*.purs',
+      './dist/index.html'
+    ]
   },
   theme: {
     extend: {},
