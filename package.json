@@ -1,0 +1,19 @@
+{
+  "name": "purescript-tailwindcss-template",
+  "version": "1.0.0",
+  "description": "A simple tailwindcss template in purescript using halogen",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "debug-spago": "yarn run spago bundle-app -t ./dist/app.js --watch",
+    "debug-tailwind": "yarn run tailwindcss -o ./dist/app.css --watch",
+    "debug-serve": "yarn run live-server ./dist"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "purescript": "^0.14.9",
+    "spago": "^0.20.7",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {}
+}

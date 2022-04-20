@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        ".spago/": true,
+        "node_modules/": true,
+        "output/": true
+    }
+}
